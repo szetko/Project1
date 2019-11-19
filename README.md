@@ -75,7 +75,51 @@ Step 1 - Installing ZAP on Kali Linux machine
  
 Step 2 - Installing ZAP on Windows
 
- - 
+ - Follow the link below:
+    https://github.com/zaproxy/zaproxy/wiki/Downloads
+ - Find the appropriate link dependant on your Windows version
+
+Using ZAP to run basic scans on web applications
+
+ - To perform a quick scan using ZAP on any web URL
+ - Click the big "Automated Scan" button
+ 
+ <img src="Images/Zapquickscan.PNG">
+ 
+  - Enter a URL in the "URL to attack column"
+  - Click "Attack"
+  - I recommend using one of the pentester URLS and working through these to test the different results from each
+  - Once the scan has been completed click on the Alerts tab down the bottom of the screen shown below:
+  
+  <img src="Images/Alerts.PNG">
+  
+  - When looking through the Alerts folder keep in mind that Red is often a serious Vulnerability while they get less
+  and less serious as the flags get lighter in colour.
+  - Click the small arrow beside the red flagged address
+  
+  <img src="images/RedFlag.PNG">
+  
+  - Look through the output and review through the information on the right hand pane.
+  
+  <img src="RedFlagPane.PNG"
+  
+  - Important to note information is the "Attack:" info which shows a ready to use exploit on which you can use on a vulnerable parameter.
+  - In the case shown above using the "</html><script>alert(1);</script><html>" script on the name parameter will expose a 
+    exploit in the web application. 
+  - Working through each of the Pentester web applications and testing the different results is a good learning convention.
+  - Something to note: 
+    - ZAP does not find 100% of vulnerabilities on a web application and there are often many vulnerabilities that can be missed.
+	- This means having your own hard coding knowledge on vulnerabilities will come in handy
+  - Useful link for more information on ZAP is linked below
+  
+  https://resources.infosecinstitute.com/introduction-owasp-zap-web-application-security-assessments/#gref
+	
+  	
+	
+ 
+ 
+ 
+ 
  
  - 
 
