@@ -206,8 +206,33 @@ Installing ZAP on Linux AND windows
 	https://www.guru99.com/installing-selenium-webdriver.html
 	
 	
+	<h1>Using scripts to run browser using Selenium in non-headless browser mode</h1>
+	
+	- Use the following documentation to start with an easy to use example script 
+	
+	https://www.guru99.com/first-webdriver-script.html
+	
+	- The script found on the tutorial will look like the following:
+	
+	<img src="Images/NonHeadless.PNG">
 	
 	
+	- After successfully running the script found in the above tutorial we want to now run the script but this time in headless browser mode.
+	This will speed up the process and save processing power.
+	
+	- Using the following lines of code will run chrome in headless browser mode
+	
+	<img src="Images/Headless.PNG">
+	
+	- Then import the following package
+	
+	<img src="Images/Package.PNG">
+	
+	- Your selenium script should now look like this:
+	
+	<img src="Images/HeadlessScript.PNG">
+
+
 
 	
 	
