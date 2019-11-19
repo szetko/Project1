@@ -185,8 +185,7 @@ Installing ZAP on Linux AND windows
 	
 
 	
-	Step 3 - Testing ZAP proxy Configuration
-
+	
 	<h2>Step 3 - Testing ZAP proxy Configuration</h2>
 
 	
