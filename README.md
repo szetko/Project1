@@ -1,14 +1,13 @@
-# Project1
+# Web application Security Documentation
 
-Documentation
 
 I started my project by doing some penetration testing.
 To do so i had to set up the right environment, i was recommened using a Linux/Unix machine when it comes to pentesting
 purely for the terminal and sheer number of tools available. 
 
-Setting up Kali Linux and Pentester VM
+<h1>Setting up Kali Linux and Pentester VM</h1>
 
-Step 1 - Install Kali Linux
+<h2>Step 1 - Install Kali Linux</h2>
 
  Visit the link below: 
  https://www.kali.org/downloads/
@@ -17,8 +16,12 @@ Step 1 - Install Kali Linux
  
  <img src="Images/KaliLinuxImage.PNG">
  
+<<<<<<< HEAD
  
 Step 2 - Open Oracle VM to deploy the Kali Linux Image
+=======
+<h2>Step 2 - Open Oracle VM to deploy the Kali Linux Image</h2>
+>>>>>>> beee15d973ef37e01c31285235e9aef1947c3144
 
  - Click New
  - Enter a Name
@@ -36,7 +39,7 @@ Step 2 - Open Oracle VM to deploy the Kali Linux Image
  - Select the recently downloaded Kali Linux Image then click "OK"
  - Run the VM and navigate through the steps to personalize your new Kali Linux machine.
 
-Step 3 - Get the pentester VM running to begin pentesting
+<h2>Step 3 - Get the pentester VM running to begin pentesting</h2>
 
  - Follow the link below:
  - https://www.pentesterlab.com/exercises/web_for_pentester/attachments
@@ -59,10 +62,14 @@ Step 3 - Get the pentester VM running to begin pentesting
  
  <img src="Images/PentesterPage.PNG">
  
+<<<<<<< HEAD
  
 Installing ZAP on Linux AND windows
+=======
+<h1>Installing ZAP on Linux AND windows</h1>
+>>>>>>> beee15d973ef37e01c31285235e9aef1947c3144
 
-Step 1 - Installing ZAP on Kali Linux machine
+<h2>Step 1 - Installing ZAP on Kali Linux machine</h2>
 
  - Open the Kali Linux Terminal and enter the following command:
  - wget https://github.com/zaproxy/zaproxy/wiki/Downloads
@@ -81,13 +88,13 @@ Step 1 - Installing ZAP on Kali Linux machine
  
  - Select "Yes, I want to persist this session but I want to specify the name and location."
  
-Step 2 - Installing ZAP on Windows
+<h2>Step 2 - Installing ZAP on Windows</h2>
 
  - Follow the link below:
     https://github.com/zaproxy/zaproxy/wiki/Downloads
  - Find the appropriate link dependant on your Windows version
 
-Using ZAP to run basic scans on web applications
+<h1>Using ZAP to run basic scans on web applications</h1>
 
  - To perform a quick scan using ZAP on any web URL
  - Click the big "Automated Scan" button
@@ -130,7 +137,7 @@ Using ZAP to run basic scans on web applications
   
   https://resources.infosecinstitute.com/introduction-owasp-zap-web-application-security-assessments/#gref
   
-  Using ZAP baseline script with docker
+  <h1>Using ZAP baseline script with docker</h1>
   
   - On kali linux machine terminal install docker using the command "apt-get install docker-ce"
   - To ensure docker service has been enable run the command "systemctl start docker"
@@ -151,9 +158,9 @@ Using ZAP to run basic scans on web applications
 	
 	https://www.youtube.com/watch?v=o_JZRgQMF4Q
 	
-	Configuring ZAP proxy to trace browser traffic
+	<h1>Configuring ZAP proxy to trace browser traffic</h1>
 	
-	Step 1 - Setting ZAP local proxy
+	<h2>Step 1 - Setting ZAP local proxy</h2>
 	
 	- Go to Tools => Options => Local Proxies and set the address and port number for the proxy. Example Below:
 	
@@ -163,7 +170,7 @@ Using ZAP to run basic scans on web applications
 	
 	- In this example we used localhost as the address and port 8080 as the Port number
 	
-	Step 2 - Configure Proxy in Firefox
+	<h2>Step 2 - Configure Proxy in Firefox</h2>
 	
 	- Go to Options => Network Proxy Settings 
 	
@@ -176,16 +183,24 @@ Using ZAP to run basic scans on web applications
 	
 	<img src="Images/FirefoxProxy.PNG">
 	
+<<<<<<< HEAD
 	
 	Step 3 - Testing ZAP proxy Configuration
+=======
+	<h2>Step 3 - Testing ZAP proxy Configuration</h2>
+>>>>>>> beee15d973ef37e01c31285235e9aef1947c3144
 	
 	- Once the Proxy has been set properly, navigate to a website, you will start noticing the HTTP response and Request under the Sites tab in ZAP
 	
 	
 	<img src="Images/ZAPResponse.PNG">
 	
+<<<<<<< HEAD
 	
 	Downloading and installing Selenium WebDriver
+=======
+	<h1>Downloading and installing Selenium WebDriver</h1>
+>>>>>>> beee15d973ef37e01c31285235e9aef1947c3144
 	
 	- Follow this detailed documentation on how to set up Selenium using Java
 	
