@@ -113,6 +113,69 @@ Using ZAP to run basic scans on web applications
   - Useful link for more information on ZAP is linked below
   
   https://resources.infosecinstitute.com/introduction-owasp-zap-web-application-security-assessments/#gref
+  
+  Using ZAP baseline script with docker
+  
+  - On kali linux machine terminal install docker using the command "apt-get install docker-ce"
+  - To ensure docker service has been enable run the command "systemctl start docker"
+  - Use "docker pull owasp/zap2docker-stable" or "docker pull owasp/zap2docker-weekly" 
+  To run ZAP in headless mode with the stable script previously pulled use:
+  - docker run -u zap -p 8080:8080 -i owasp/zap2docker-stable zap.sh -daemon -host 0.0.0.0 -port 8080 -config api.addrs.addr.name=.* -config api.addrs.addr.regex=true -config api.key=<api-key>
+  - To run a baseline scan against any example website use the following command:
+  - docker run -t owasp/zap2docker-weekly zap-baseline.py -t https://www.example.com
+  - The baseline scan runs the ZAP spider against the specified target for 1 minute and then waits for the passive scanning to complete before reporting the results
+    *For more detailed documentation especially on command flags visit the following URLS*
+	
+	https://github.com/zaproxy/zaproxy/wiki/Docker
+	https://github.com/zaproxy/zaproxy/wiki/ZAP-Baseline-Scan
+    https://github.com/zaproxy/zaproxy/wiki/InternalDetails
+	https://blog.mozilla.org/security/2017/01/25/setting-a-baseline-for-web-security-controls/
+	
+	*A good tutorial video talking on ZAP is linked below*
+	
+	https://www.youtube.com/watch?v=o_JZRgQMF4Q
+	
+	Configuring ZAP proxy to trace browser traffic
+	
+	Step 1 - Setting ZAP local proxy
+	
+	- Go to Tools => Options => Local Proxies and set the address and port number for the proxy. Example Below:
+	
+	<img src="Images/ZAPproxy.PNG">
+	
+	- In this example we used localhost as the address and port 8080 as the Port number
+	
+	Step 2 - Configure Proxy in Firefox
+	
+	- Go to Options => Network Proxy Settings 
+	
+	<img src="Images/FirefoxSettings.PNG>
+	
+	- Select Manual proxy configuration and enter in the ZAP address and port number, Example Below:
+	
+	<img src="Images/FirefoxProxy.PNG>
+	
+	Step 3 - Testing ZAP proxy Configuration
+	
+	- Once the Proxy has been set properly, navigate to a website, you will start noticing the HTTP response and Request under the Sites tab in ZAP
+	
+	<img src="Images/ZAPResponse.PNG"
+	
+	Downloading and installing Selenium WebDriver
+	
+	- Follow this detailed documentation on how to set up Selenium using Java
+	
+	https://www.guru99.com/installing-selenium-webdriver.html
+	
+	
+	
+	
+
+	
+	
+	
+ 
+    
 	
   	
 	
