@@ -69,7 +69,7 @@ Step 1 - Installing ZAP on Kali Linux machine
  - "zap.sh"
  - A dialogue box will appear as displayed below:
  
- <img src="Images/ZAPdialogue.PNG"
+ <img src="Images/ZAPdialogue.PNG">
  
  - Select "Yes, I want to persist this session but I want to specify the name and location."
  
@@ -101,7 +101,7 @@ Using ZAP to run basic scans on web applications
   
   - Look through the output and review through the information on the right hand pane.
   
-  <img src="Images/RedFlagPane.PNG"
+  <img src="Images/RedFlagPane.PNG">
   
   - Important to note information is the "Attack:" info which shows a ready to use exploit on which you can use on a vulnerable parameter.
   - In the case shown above using the "</html><script>alert(1);</script><html>" script on the name parameter will expose a 
@@ -149,11 +149,11 @@ Using ZAP to run basic scans on web applications
 	
 	- Go to Options => Network Proxy Settings 
 	
-	<img src="Images/FirefoxSettings.PNG>
+	<img src="Images/FirefoxSettings.PNG">
 	
 	- Select Manual proxy configuration and enter in the ZAP address and port number, Example Below:
 	
-	<img src="Images/FirefoxProxy.PNG>
+	<img src="Images/FirefoxProxy.PNG">
 	
 	Step 3 - Testing ZAP proxy Configuration
 	
