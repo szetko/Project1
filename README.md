@@ -48,11 +48,11 @@ Step 3 - Get the pentester VM running to begin pentesting
  - Once the terminal has loaded for the new VM use the "ifconfig" command
  - Take note of the inet addr listed under eth0
  
- <img src="images/PentesterIP.PNG">
+ <img src="Images/PentesterIP.PNG">
  
  - Enter this IP into your Kali Linux Browser to start using the Pen tester web applications.
  
- <img src="images/PentesterPage.PNG">
+ <img src="Images/PentesterPage.PNG">
  
 Installing ZAP on Linux AND windows
 
@@ -97,11 +97,11 @@ Using ZAP to run basic scans on web applications
   and less serious as the flags get lighter in colour.
   - Click the small arrow beside the red flagged address
   
-  <img src="images/RedFlag.PNG">
+  <img src="Images/RedFlag.PNG">
   
   - Look through the output and review through the information on the right hand pane.
   
-  <img src="RedFlagPane.PNG"
+  <img src="Images/RedFlagPane.PNG"
   
   - Important to note information is the "Attack:" info which shows a ready to use exploit on which you can use on a vulnerable parameter.
   - In the case shown above using the "</html><script>alert(1);</script><html>" script on the name parameter will expose a 
