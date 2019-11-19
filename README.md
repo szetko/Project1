@@ -159,7 +159,7 @@ Using ZAP to run basic scans on web applications
 	
 	- Once the Proxy has been set properly, navigate to a website, you will start noticing the HTTP response and Request under the Sites tab in ZAP
 	
-	<img src="Images/ZAPResponse.PNG"
+	<img src="Images/ZAPResponse.PNG">
 	
 	Downloading and installing Selenium WebDriver
 	
