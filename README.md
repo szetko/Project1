@@ -14,7 +14,9 @@ Step 1 - Install Kali Linux
  https://www.kali.org/downloads/
  Install the appropriate Image, I downloaded the Kali Linux 64-Bit Version 2019.3
  
+ 
  <img src="Images/KaliLinuxImage.PNG">
+ 
  
 Step 2 - Open Oracle VM to deploy the Kali Linux Image
 
@@ -48,11 +50,15 @@ Step 3 - Get the pentester VM running to begin pentesting
  - Once the terminal has loaded for the new VM use the "ifconfig" command
  - Take note of the inet addr listed under eth0
  
+ 
  <img src="Images/PentesterIP.PNG">
+ 
  
  - Enter this IP into your Kali Linux Browser to start using the Pen tester web applications.
  
+ 
  <img src="Images/PentesterPage.PNG">
+ 
  
 Installing ZAP on Linux AND windows
 
@@ -69,7 +75,9 @@ Step 1 - Installing ZAP on Kali Linux machine
  - "zap.sh"
  - A dialogue box will appear as displayed below:
  
+ 
  <img src="Images/ZAPdialogue.PNG">
+ 
  
  - Select "Yes, I want to persist this session but I want to specify the name and location."
  
@@ -84,24 +92,32 @@ Using ZAP to run basic scans on web applications
  - To perform a quick scan using ZAP on any web URL
  - Click the big "Automated Scan" button
  
+ 
  <img src="Images/Zapquickscan.PNG">
+ 
  
   - Enter a URL in the "URL to attack column"
   - Click "Attack"
   - I recommend using one of the pentester URLS and working through these to test the different results from each
   - Once the scan has been completed click on the Alerts tab down the bottom of the screen shown below:
   
+  
   <img src="Images/Alerts.PNG">
+  
   
   - When looking through the Alerts folder keep in mind that Red is often a serious Vulnerability while they get less
   and less serious as the flags get lighter in colour.
   - Click the small arrow beside the red flagged address
   
+  
   <img src="Images/RedFlag.PNG">
+  
   
   - Look through the output and review through the information on the right hand pane.
   
+  
   <img src="Images/RedFlagPane.PNG">
+  
   
   - Important to note information is the "Attack:" info which shows a ready to use exploit on which you can use on a vulnerable parameter.
   - In the case shown above using the "</html><script>alert(1);</script><html>" script on the name parameter will expose a 
@@ -141,7 +157,9 @@ Using ZAP to run basic scans on web applications
 	
 	- Go to Tools => Options => Local Proxies and set the address and port number for the proxy. Example Below:
 	
+	
 	<img src="Images/ZAPproxy.PNG">
+	
 	
 	- In this example we used localhost as the address and port 8080 as the Port number
 	
@@ -149,17 +167,23 @@ Using ZAP to run basic scans on web applications
 	
 	- Go to Options => Network Proxy Settings 
 	
+	
 	<img src="Images/FirefoxSettings.PNG">
+	
 	
 	- Select Manual proxy configuration and enter in the ZAP address and port number, Example Below:
 	
+	
 	<img src="Images/FirefoxProxy.PNG">
+	
 	
 	Step 3 - Testing ZAP proxy Configuration
 	
 	- Once the Proxy has been set properly, navigate to a website, you will start noticing the HTTP response and Request under the Sites tab in ZAP
 	
+	
 	<img src="Images/ZAPResponse.PNG">
+	
 	
 	Downloading and installing Selenium WebDriver
 	
