@@ -16,12 +16,12 @@ purely for the terminal and sheer number of tools available.
  
  <img src="Images/KaliLinuxImage.PNG">
  
-<<<<<<< HEAD
+
  
 Step 2 - Open Oracle VM to deploy the Kali Linux Image
-=======
+
 <h2>Step 2 - Open Oracle VM to deploy the Kali Linux Image</h2>
->>>>>>> beee15d973ef37e01c31285235e9aef1947c3144
+
 
  - Click New
  - Enter a Name
@@ -62,12 +62,12 @@ Step 2 - Open Oracle VM to deploy the Kali Linux Image
  
  <img src="Images/PentesterPage.PNG">
  
-<<<<<<< HEAD
+
  
 Installing ZAP on Linux AND windows
-=======
+
 <h1>Installing ZAP on Linux AND windows</h1>
->>>>>>> beee15d973ef37e01c31285235e9aef1947c3144
+
 
 <h2>Step 1 - Installing ZAP on Kali Linux machine</h2>
 
@@ -183,24 +183,24 @@ Installing ZAP on Linux AND windows
 	
 	<img src="Images/FirefoxProxy.PNG">
 	
-<<<<<<< HEAD
+
 	
 	Step 3 - Testing ZAP proxy Configuration
-=======
+
 	<h2>Step 3 - Testing ZAP proxy Configuration</h2>
->>>>>>> beee15d973ef37e01c31285235e9aef1947c3144
+
 	
 	- Once the Proxy has been set properly, navigate to a website, you will start noticing the HTTP response and Request under the Sites tab in ZAP
 	
 	
 	<img src="Images/ZAPResponse.PNG">
 	
-<<<<<<< HEAD
+
 	
 	Downloading and installing Selenium WebDriver
-=======
+
 	<h1>Downloading and installing Selenium WebDriver</h1>
->>>>>>> beee15d973ef37e01c31285235e9aef1947c3144
+
 	
 	- Follow this detailed documentation on how to set up Selenium using Java
 	
