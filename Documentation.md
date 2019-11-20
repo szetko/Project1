@@ -216,6 +216,12 @@ Installing ZAP on Linux AND windows
 	
 	<img src="Images/NonHeadless.PNG">
 	
+	- To run the script click the button shown in the screenshot below:
+	
+	<img src="Images/Play.PNG">
+	
+	-A window of text will be displayed while running the code and will show whether on not the script was successful or not
+		
 	
 	- After successfully running the script found in the above tutorial we want to now run the script but this time in headless browser mode.
 	This will speed up the process and save processing power.
@@ -226,7 +232,7 @@ Installing ZAP on Linux AND windows
 	
 	- Then import the following package
 	
-	<img src="Images/Package.PNG">
+	<img src="Images/package.PNG">
 	
 	- Your selenium script should now look like this:
 	
@@ -238,6 +244,31 @@ Installing ZAP on Linux AND windows
 	https://www.youtube.com/watch?v=aVFZFi_6B9g
 	https://vimeo.com/222238217
 	
+	<h1> Integrating Selenium with ZAP </h1>
+	
+	<h2> Step 1 </h2>
+	
+	- Read the documentation listed below:
+	
+	https://dzone.com/articles/automate-zap-security-tests-with-selenium-webdrive-1
+	
+	- Following through the above documentation will have you create 3 new classes, a test class, a website navigation class and a BrowserDriver class.
+	- In the Test class change the following values depending on your ZAP client
+	
+	<img src="Images/ChangedValues.PNG">
+	
+	- Notice the driver path, ensure your chromedriver is in the correct path location
+	- ZAP proxyhost and proxyport can be found through the ZAP interface by navigating through Tools => Options => local Proxies 
+	
+	<img src="Images/ZAPInfo.PNG">
+	
+	- Once the above steps have been completed run the script and if everything has been configured properly you should see output in your ZAP client under the Sites tab
+	
+	<img src="Images/Sites.PNG">
+
+
+
+
 	
 
 
