@@ -231,6 +231,14 @@ Installing ZAP on Linux AND windows
 	- Your selenium script should now look like this:
 	
 	<img src="Images/HeadlessScript.PNG">
+	
+	- Some online videos which i found helped with Selenium have been linked below:
+	
+	https://www.youtube.com/watch?v=jFBNCM61DbA
+	https://www.youtube.com/watch?v=aVFZFi_6B9g
+	https://vimeo.com/222238217
+	
+	
 
 
 
